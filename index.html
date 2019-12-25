@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock, Paper and Scissors Games </title>
+
+    <link rel="stylesheet" href="css/style.css" >
+  </head>
+  <body>
+    <header>
+      <h1>Rock, Paper And Scissors Game </h1>
+    </header>
+
+    <div class="main">
+      <div class="score">
+
+        <div class="player">
+          <span>You</span>
+          <span id="player-score">0</span>
+        </div>
+
+        <span class="vs">VS</span>
+
+        <div class="computer">
+          <span>Computer</span>
+          <span id="computer-score">0</span>
+      </div>
+
+    </div>
+    <div id="battlefield">
+
+      <div class="move" id="move">
+        <strong id="ready">Make Your Move</strong>
+        <div class="computer-move" id="computer-move">
+        </div>
+        <div class="player-move" id="player-move">
+        </div>
+      </div>
+
+    </div>
+    <ul>
+      <li data-action="scissors" id="scissors" class="action"><img src="icons/scissors.png" alt="scissors"><span>Scissors</span></li>
+      <li data-action="paper" id="paper" class="action"><img src="icons/paper.png" alt="paper"><span>Paper</span></li>
+      <li data-action="rock" id="rock" class="action"><img src="icons/rock.png" alt="rock"><span>Rock</span></li>
+    </ul>
+      <div class="reset">
+          <button onclick='reset()'>Reset</button>
+      </div>
+
+      <footer>
+        <p>Powered by <a href="https://github.com/Aladin96" target="_blank">Alaaeddine</a> With <span class="heart">&#10084;</span></p>
+      </footer>
+
+      <script type="text/javascript" src="js/main.js">
+      </script>
+  </body>
+</html>
